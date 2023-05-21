@@ -31,5 +31,6 @@ public class Character : MonoBehaviour
 
     private void Death () {
         Destroy( gameObject );
+        Time.timeScale = 0;
     }
 }
